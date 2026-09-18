@@ -1,0 +1,92 @@
+body{
+    background-color: wheat;
+}
+
+.heading{
+    font-family: arial, serial sans;
+}
+
+p{
+    color: rgb(180, 44, 74);
+}
+
+.classname{
+    color: rgb(127, 24, 196);
+    font-size: 2rem;
+}
+
+#idname{
+    color: rgb(25, 165, 49);
+    font-size: 1.5em;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+#main-heading{
+    color: darkolivegreen;
+    font-size: 50px;
+}
+
+.header{
+    background-color: azure;
+    border: 3px solid black;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.maincontent{
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    padding: 20px;
+    margin-right: 60%;
+    margin-left: 20%;
+}
+
+.footer{
+    background-color: mediumpurple;
+    border: 3px solid black;
+    padding: 20px;
+    margin-left: 10%;
+}
+
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    left: 30%;
+    bottom: 555px;
+    width: 585px;
+    
+}
+
+.absolute{
+    position: absolute;
+    width: 220px;
+    margin-left: 50%;
+    top: 50%;
+}
+
+.leftbox{
+    float: left;
+    width: 40%;
+    padding: 10px;
+    background-color: green;
+}
+
+.rightbox{
+    float: right;
+    width: 40%;
+    padding: 10px;
+    background-color: greenyellow;
+}
+
+.clearbox{
+    clear: both;
+    padding: 20px;
+    background-color: blue;
+}
